@@ -1,6 +1,7 @@
 ﻿using System;
 using ConsoleApplication.Interfaces;
 using ConsoleApplication.Memento;
+using ConsoleApplication.Singleton;
 namespace ConsoleApplication
 {
     class Program
@@ -56,6 +57,7 @@ namespace ConsoleApplication
             */
 
             /* ***** Solution ***** */
+            /*
             var editor = new Editor();
             var history = new History();
 
@@ -76,6 +78,26 @@ namespace ConsoleApplication
             editor.RestoreState(history.Pop());
             Console.WriteLine(editor.Content);
 
+            */
+            #endregion
+        
+            #region [Singleton]
+            /* ***** Problem ***** */
+            /*
+            var configManager = new ConfigManager();
+            configManager.Set("name","Reza");
+            Console.WriteLine(configManager.Get("name"));
+
+            var anotherConfigManager = new ConfigManager();
+            Console.WriteLine(anotherConfigManager.Get("name")); // KeyNotFoundException
+            */
+            /* ***** Solution *****/
+            ConfigManager configManager1 = ConfigManager.GetInstance();
+            configManager1.Set("name","Reza");
+            Console.WriteLine(configManager1.Get("name"));
+
+            var configManager2 = ConfigManager.GetInstance();
+            Console.WriteLine(configManager2.Get("name"));
             #endregion
         }
 
