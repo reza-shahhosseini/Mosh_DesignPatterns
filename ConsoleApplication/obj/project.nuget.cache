@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VSdOReOYpAvnVkfu0dxDymPXySHBFQbxjvM7uxLI5LgMDiu1qRrcSd6RRq6WoRh5MHy05S/jEzudEIdVVptBzg==",
+  "success": true,
+  "projectFilePath": "F:\\dev\\Mosh_DesignPatterns\\ConsoleApplication\\ConsoleApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RezaShahhosseini\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

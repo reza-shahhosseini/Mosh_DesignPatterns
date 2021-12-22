@@ -1,0 +1,16 @@
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\bin\Debug\net5.0\ConsoleApplication.exe
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\bin\Debug\net5.0\ConsoleApplication.deps.json
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\bin\Debug\net5.0\ConsoleApplication.runtimeconfig.json
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\bin\Debug\net5.0\ConsoleApplication.runtimeconfig.dev.json
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\bin\Debug\net5.0\ConsoleApplication.dll
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\bin\Debug\net5.0\ref\ConsoleApplication.dll
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\bin\Debug\net5.0\ConsoleApplication.pdb
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\obj\Debug\net5.0\ConsoleApplication.csproj.AssemblyReference.cache
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\obj\Debug\net5.0\ConsoleApplication.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\obj\Debug\net5.0\ConsoleApplication.AssemblyInfoInputs.cache
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\obj\Debug\net5.0\ConsoleApplication.AssemblyInfo.cs
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\obj\Debug\net5.0\ConsoleApplication.csproj.CoreCompileInputs.cache
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\obj\Debug\net5.0\ConsoleApplication.dll
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\obj\Debug\net5.0\ref\ConsoleApplication.dll
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\obj\Debug\net5.0\ConsoleApplication.pdb
+F:\dev\Mosh_DesignPatterns\ConsoleApplication\obj\Debug\net5.0\ConsoleApplication.genruntimeconfig.cache
