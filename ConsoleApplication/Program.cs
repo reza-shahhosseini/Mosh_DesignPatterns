@@ -2,6 +2,7 @@
 using ConsoleApplication.Interfaces;
 using ConsoleApplication.Memento;
 using ConsoleApplication.Singleton;
+using ConsoleApplication.State;
 namespace ConsoleApplication
 {
     class Program
@@ -92,12 +93,31 @@ namespace ConsoleApplication
             Console.WriteLine(anotherConfigManager.Get("name")); // KeyNotFoundException
             */
             /* ***** Solution *****/
+            /*
             ConfigManager configManager1 = ConfigManager.GetInstance();
             configManager1.Set("name","Reza");
             Console.WriteLine(configManager1.Get("name"));
 
             var configManager2 = ConfigManager.GetInstance();
             Console.WriteLine(configManager2.Get("name"));
+            */
+            #endregion
+
+            #region [State]
+            /* ***** Problem ***** */
+            /*
+            var canvas = new Canvas();
+            canvas.CurrentTool = ToolType.Brush;
+            canvas.MouseDown();
+            canvas.MouseUp();
+            */
+
+            /* ***** Solution ***** */
+            var canvas = new Canvas();
+            canvas.CurrentTool = new EraserTool();
+            canvas.MouseDown();
+            canvas.MouseUp();
+
             #endregion
         }
 
